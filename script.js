@@ -4,6 +4,7 @@ $(document).ready(function() {
     });
 
     $('button').on('click', function() {
+         console.log('Button clicked');
     $('.text-message').css('opacity', 0);
  });
 
