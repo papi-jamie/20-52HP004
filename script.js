@@ -4,6 +4,7 @@ $(document).ready(function() {
     });
 
     $('button').on('click', function() {
-        $('p').css('opacity', 0);
-    });
+    $('.text-message').css('opacity', 0);
+ });
+
 });
