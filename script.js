@@ -4,6 +4,6 @@ $(document).ready(function() {
     });
 
     $('button').on('click', function() {
-        $('p2').css('opacity', 0);
+        $('p').css('opacity', 0);
     });
 });
