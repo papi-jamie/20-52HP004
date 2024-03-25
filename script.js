@@ -1,9 +1,9 @@
-$(document).ready(function($) {
+$(document).ready(function() {
     $('.message a').click(function(){
         $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
     });
 
     $('button').on('click', function() {
-        $('p').css('opacity', 0);
+        $('p2').css('opacity', 0);
     });
 });
