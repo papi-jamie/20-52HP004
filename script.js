@@ -3,16 +3,16 @@ var isHidden = false;
 function toggleVisibility() {
     if (isHidden) {
         $('.text-message').css('opacity', 1);
-        $('#toggleButton').text('Hide the text above');
+        $('#hideButton').text('Hide the text above');
     } else {
         $('.text-message').css('opacity', 0);
-        $('#toggleButton').text('Show the text above');
+        $('#hideButton').text('Show the text above');
     }
     isHidden = !isHidden;
 }
 
 $(document).ready(function() {
-    $('#toggleButton').on('click', function() {
+    $('#hideButton').on('click', function() {
         toggleVisibility();
     });
 });
